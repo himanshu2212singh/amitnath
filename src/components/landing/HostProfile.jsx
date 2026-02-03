@@ -5,7 +5,7 @@ import { Check } from "lucide-react";
 
 export default function HostProfile() {
     return (
-        <section className="py-24 bg-slate-950 border-t border-white/5 relative overflow-hidden">
+        <section className="py-16 bg-slate-950 border-t border-white/5 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-amber-500/5 blur-[100px] rounded-full pointer-events-none" />
 
             <div className="container mx-auto px-4 relative z-10">

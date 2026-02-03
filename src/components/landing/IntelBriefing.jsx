@@ -23,7 +23,7 @@ export default function IntelBriefing() {
     ];
 
     return (
-        <section className="py-32 relative overflow-hidden bg-slate-950">
+        <section className="pt-12 pb-8 relative overflow-hidden bg-slate-950">
             {/* Decorative Grid & Glow */}
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-slate-900/50 rounded-full blur-[100px] pointer-events-none" />

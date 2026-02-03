@@ -39,7 +39,7 @@ const scheduleData = [
 
 export default function Schedule() {
     return (
-        <section className="py-32 bg-slate-950 relative">
+        <section className="pt-8 pb-12 bg-slate-950 relative">
             <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-indigo-900/20 rounded-full blur-[120px] pointer-events-none" />
 
             <div className="container mx-auto px-4 relative z-10">

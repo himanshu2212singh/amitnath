@@ -6,7 +6,7 @@ import RegistrationForm from "./RegistrationForm";
 
 export default function CTASection({ id }) {
     return (
-        <section id={id} className="py-32 relative overflow-hidden bg-slate-950">
+        <section id={id} className="py-20 relative overflow-hidden bg-slate-950">
             {/* Richer Background Gradient */}
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-amber-900/20 via-slate-950 to-slate-950" />
 

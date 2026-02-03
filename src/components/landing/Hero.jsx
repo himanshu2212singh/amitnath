@@ -90,7 +90,7 @@ export default function Hero({ onRegister }) {
                 >
                     <div className="relative aspect-square sm:aspect-[4/3] rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-black group">
                         <iframe
-                            src="https://player.vimeo.com/video/1152548733?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                            src="https://player.vimeo.com/video/1152548733?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&title=0&byline=0&portrait=0"
                             className="absolute inset-0 w-full h-full"
                             frameBorder="0"
                             allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
