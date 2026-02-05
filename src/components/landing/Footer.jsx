@@ -32,17 +32,6 @@ export default function Footer() {
                 <div className="border-t border-white/5 pt-8 flex flex-col items-center gap-6 text-xs text-slate-600">
                     <div className="space-y-2 text-center">
                         <p>© 2026 Global CXO Accelerator. All rights reserved.</p>
-                        <p className="font-medium text-[10px] tracking-widest uppercase opacity-60">
-                            Powered by{" "}
-                            <a
-                                href="https://leadforgrow.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="hover:text-amber-500 transition-colors text-slate-500"
-                            >
-                                Leadforgrow
-                            </a>
-                        </p>
                     </div>
                     <div className="flex gap-8">
                         <a href="#" className="hover:text-amber-500 transition-colors">Privacy Policy</a>

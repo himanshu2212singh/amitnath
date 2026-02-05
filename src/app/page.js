@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import IntelBriefing from "@/components/landing/IntelBriefing";
@@ -9,6 +10,10 @@ import CTASection from "@/components/landing/CTASection";
 import Footer from "@/components/landing/Footer";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const scrollToRegistration = () => {
     const section = document.getElementById('registration');
     if (section) {

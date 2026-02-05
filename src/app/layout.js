@@ -14,6 +14,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            if (typeof window !== 'undefined') {
+              window.history.scrollRestoration = 'manual';
+              window.scrollTo(0, 0);
+            }
+          `
+        }} />
+      </head>
       <body
         suppressHydrationWarning
         className={`${inter.variable} antialiased bg-background text-foreground`}
